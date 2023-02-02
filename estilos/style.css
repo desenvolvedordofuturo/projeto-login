@@ -46,11 +46,20 @@ section#login > div#imagens {
     display: block;
     background: #5f2c82 url(../imagens/post10.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: right bottom;
     height: 200px;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 20px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.9em;
 }
